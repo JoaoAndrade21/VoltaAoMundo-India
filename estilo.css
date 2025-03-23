@@ -1,0 +1,73 @@
+header {
+    background-color: rgba(4, 106, 57, 0.566);
+    box-sizing: border-box;
+    width: 100%;
+    height: auto; /* Ajuste a altura para se adaptar ao conteúdo */
+    display: flex;
+    position: relative;
+    flex-direction: column; /* Alinha os itens em coluna */
+    align-items: center;
+    padding: 10px 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 80px;
+}
+
+.bandeira img {
+    margin-top: 50px;
+    max-width: 100%; 
+    height: auto;
+}
+.apresentacao{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: oblique;
+}
+
+/* Estilização da navegação */
+nav {
+    
+    height: 50px;
+    display: flex;
+    background-color: rgba(5, 3, 141, 0.185);
+    justify-content: center; /* Centraliza a barra de navegação */
+    position:fixed !important;
+}
+
+.navbar {
+    width: 100%;
+    max-width: auto; /* Evita que a navegação fique muito esticada */
+    display: flex;
+    justify-content: center; /* Centraliza os itens do menu */
+    
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.navbar-nav .nav-item {
+    margin: 0 15px; /* Espaçamento entre os itens */
+}
+
+.navbar-nav .nav-link {
+    color: white !important;
+    font-weight: bold;
+}
+
+.corpo{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    text-align:justify;
+    gap: 80px;
+    padding: 20px 300px;
+}
