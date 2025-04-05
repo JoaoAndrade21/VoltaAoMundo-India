@@ -1,16 +1,16 @@
-header {
-    background-color: rgba(4, 106, 57, 0.566);
-    box-sizing: border-box;
-    width: 100%;
-    height: auto; /* Ajuste a altura para se adaptar ao conteúdo */
-    display: flex;
-    position: relative;
-    flex-direction: column; /* Alinha os itens em coluna */
-    align-items: center;
-    padding: 10px 0;
+body {
+    background-color: #E6ECF0 ;
+    color: #4B2E2E;
 }
 
-.container {
+header {
+    background-color: #003366;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+}
+
+.topo {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -21,53 +21,58 @@ header {
 
 .bandeira img {
     margin-top: 50px;
-    max-width: 100%; 
-    height: auto;
+    border-radius: 20px;
 }
 .apresentacao{
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-style: oblique;
-}
-
-/* Estilização da navegação */
-nav {
-    
-    height: 50px;
-    display: flex;
-    background-color: rgba(5, 3, 141, 0.185);
-    justify-content: center; /* Centraliza a barra de navegação */
-    position:fixed !important;
+    margin-top: 20px;
+    color: #FFD580;
 }
 
 .navbar {
+    background-color: rgba(5, 3, 141, 0.185);
     width: 100%;
-    max-width: auto; /* Evita que a navegação fique muito esticada */
-    display: flex;
-    justify-content: center; /* Centraliza os itens do menu */
-    
-}
-
-.navbar-nav {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-}
-
-.navbar-nav .nav-item {
-    margin: 0 15px; /* Espaçamento entre os itens */
 }
 
 .navbar-nav .nav-link {
-    color: white !important;
+    color: #FFD580 !important;
     font-weight: bold;
 }
 
-.corpo{
+.corpo {
     display: flex;
     flex-direction: column;
     justify-content:center;
     align-items: center;
     text-align:justify;
-    gap: 80px;
+    gap: 20px;
     padding: 20px 300px;
+}
+
+html, body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+.carrossel{
+    width: 50%
+}
+
+.carousel-caption{
+    background-color: rgba(160, 160, 160, 0.556)
+}
+
+p{
+    font-size: 130%
+}
+
+.card {
+    border: 2px solid #FF9933;
+    width: 400px;
+    height: 400px;
+    
 }
