@@ -71,7 +71,8 @@ p{
 }
 
 .card {
-    border: 2px solid #FF9933;
+    border: 6px groove #FF9933;
+    border-radius: 10px;
     width: 400px;
     height: 400px;
     
