@@ -24,6 +24,7 @@ header {
     width: 50%;
     margin-top: 2rem;
     border-radius: 20px;
+    border: 4px groove #FF9933;
 }
 .apresentacao{
     margin-top: 1rem;
