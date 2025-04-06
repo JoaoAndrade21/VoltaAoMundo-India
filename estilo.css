@@ -65,7 +65,8 @@ main {
 }
 
 .carrossel{
-    width: 80%;
+    width: 85%;
+    box-sizing: content-box;
 }
 
 .carousel-caption{
@@ -73,14 +74,13 @@ main {
 }
 
 p{
-    font-size: 130%;
+    font-size: 110%;
 }
 
 .card {
     border: 6px groove #FF9933;
     border-radius: 10px;
-    width: 400px;
-    height: 400px;
+ 
     
 }
 
