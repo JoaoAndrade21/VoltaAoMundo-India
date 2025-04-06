@@ -7,7 +7,8 @@ header {
     background-color: #003366;
     display: flex;
     flex-direction: column;
-    padding-bottom: 10px;
+    padding-bottom: 0.5rem;
+    width: 100%;
 }
 
 .topo {
@@ -16,16 +17,25 @@ header {
     justify-content: center;
     align-items: center;
     text-align: center;
-    gap: 80px;
+    flex-wrap: wrap;
 }
 
 .bandeira img {
-    margin-top: 50px;
+    width: 50%;
+    margin-top: 2rem;
     border-radius: 20px;
 }
 .apresentacao{
-    margin-top: 20px;
+    margin-top: 1rem;
     color: #FFD580;
+}
+
+.apresentacao h1 {
+    font-size: clamp(30px, 3vw, 40px);
+}
+
+.apresentacao h3 {
+    font-size: clamp(22px, 2vw, 30px);
 }
 
 .navbar {
@@ -39,13 +49,9 @@ header {
 }
 
 .corpo {
-    display: flex;
-    flex-direction: column;
-    justify-content:center;
-    align-items: center;
     text-align:justify;
     gap: 20px;
-    padding: 20px 300px;
+    padding: 1% 10%;
 }
 
 html, body {
@@ -59,15 +65,15 @@ main {
 }
 
 .carrossel{
-    width: 50%
+    width: 80%;
 }
 
 .carousel-caption{
-    background-color: rgba(160, 160, 160, 0.556)
+    background-color: rgba(160, 160, 160, 0.556);
 }
 
 p{
-    font-size: 130%
+    font-size: 130%;
 }
 
 .card {
