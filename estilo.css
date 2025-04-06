@@ -76,3 +76,13 @@ p{
     height: 400px;
     
 }
+
+.card-body {
+    background-color: #FFD580;
+    color: #4B2E2E;
+    text-align: center;
+}
+
+.pontos{
+    font-size: 1rem;
+}
